@@ -1,0 +1,94 @@
+body{
+    background-color: white;
+}
+input{
+    width: 100%;
+    padding: 8px 7px;
+    margin: 7px 0px 10px 0px;
+    border: 1px solid #808080e0;
+}
+h1{
+    text-align: center;
+}
+#signin_button{
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #11cc11d1;
+}
+#signup_button{
+    width: auto;
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #03A9F4;
+}
+#cancel_button{
+    width: auto;
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: hsl(0, 81%, 58%);
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+
+.signin_container{
+    border: 1px solid black;
+    margin: 150px 400px 50px 500px;
+    padding: 10px 35px 10px 15px;
+    background-color: white;
+    box-sizing: border-box; 
+
+}
+.signup_container{
+    display: none;
+    border: 1px solid black;
+    margin: 150px 400px 50px 500px;
+    padding: 10px 35px 10px 15px;
+    background-color: white;
+    box-sizing: border-box; 
+
+}
+
+@media only screen and (max-width: 420px){
+    body{
+        background-color: white;
+    }
+
+    .signin_container{
+        width: 100%;
+        border: 1px solid black;
+        margin: 120px 13px 10px 1px;
+        /*padding: 10px 35px 10px 15px;*/
+        background-color: white;
+        box-sizing: border-box; 
+
+    }
+
+   
+    .signup_container{
+        display: none;
+        width: 100%;
+        border: 1px solid black;
+        margin: 120px 10px 10px 1px;
+        /*padding: 10px 35px 10px 15px;*/
+        background-color: white;
+        box-sizing: border-box; 
+
+    }
+
+}

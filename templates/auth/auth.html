@@ -1,0 +1,76 @@
+{% load static %}
+
+{#https://i.ya-webdesign.com/images/funny-gif-png-2.gif#}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Authorization</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="icon" type="image/png" href="{% static 'images/icons/favicon.ico' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'fonts/font-awesome-4.7.0/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'fonts/iconic/css/material-design-iconic-font.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/animate.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/hamburgers.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/util.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/auth.css' %}">
+
+</head>
+{#<body id="body" class="loading">#}
+<body id="body">
+<script>
+    if (!navigator.cookieEnabled) {
+        alert("Please enable cookies firstly")
+        document.location.href = "../../"
+    }
+</script>
+<div id="particles-js"
+     style="
+             background-image: url('https://i.pinimg.com/originals/2e/c5/89/2ec5898721280f8885b287c57f017864.jpg');
+              background-size: cover;
+             position: fixed;
+             top: 0;
+             left: 0;
+             width: 100%;
+             height: 100%;
+             z-index: 1;"></div>
+
+<div id="page-wrapper" style="position: relative;
+    z-index: 2;">
+    <div class="limiter">
+        <div class="container-login100">
+            <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54"
+                 style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('http://getwallpapers.com/wallpaper/full/9/d/b/752403-1080x1920-hd-vertical-wallpaper-1080x1920-for-4k-monitor.jpg');">
+                <div class="text-center p-b-25">
+                     <a href="../../"><img href="../../" style="max-height: 120px"
+                                          src="https://image.rabotanur.kz/v/XvmmVWjgBYiZySykWBM8qtUU.jpg" alt=""></a>
+                </div>
+                {% block main %}
+                    {% if value == "login" %}
+                        {% include 'auth/login.html' %}
+                    {% endif %}
+                    {% if value == "signup" %}
+                        {% include 'auth/signup.html' %}
+                    {% endif %}
+                {% endblock %}
+            </div>
+        </div>
+    </div>
+    <div id="dropDownSelect1"></div>
+</div>
+
+
+<script src="{% static 'js/particles.js' %}" defer></script>
+<script src="{% static 'js/auth.js' %}" defer></script>
+<script src="{% static 'js/2.5.3-crypto-md5.js' %}"></script>
+<div class="modal"><!-- Place at bottom of page --></div>
+</body>
+
+</html>
+
+
+

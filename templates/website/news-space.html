@@ -1,0 +1,100 @@
+{% block news-space %}
+
+    <section class="main-section paddind" id="Portfolio">
+        <div class="container">
+            <h2>News</h2>
+            <h6></h6>
+
+        </div>
+        <div class="portfolioContainer wow fadeInUp delay-04s">
+            <div class=" News-box-wide">
+                <div class="c-card">
+                    <div class="c-card__wrapper"
+                         style="background-image: url({{ main_news.image_link }})">
+                        <div class="c-card__header">
+                            <!-- begin c-date -->
+                            <div class="c-date">
+                                <span class="c-date__day">{{ main_news.date }}</span>
+                                {#                                <span class="c-date__month">Января</span>#}
+                                {#                                <span class="c-date__year">2018</span>#}
+                            </div>
+                            <!-- end c-date -->
+                            <!-- begin c-info -->
+                            <ul class="c-info">
+                                {#                                TODO(Add to favourites)#}
+                                {#                                TODO(Remove to favourites)#}
+                                <li><a href="#" class="far fa-bookmark" style="background-color: rgba(38, 38, 38, 0.72);"><span style="background-color: rgba(38, 38, 38, 0.72);">{{ main_news.favourites }}</span></a></li>
+                            </ul>
+                            <!-- end c-info -->
+                        </div>
+                        <div class="c-card__body">
+                            <div class="c-card__content">
+                                {#                                <div class="c-card__author">Александр Иванов</div>#}
+                                <h3 class="c-card__title">
+                                    <a href="/news/{{ main_news.news_id }}">{{ main_news.title }}</a>
+                                </h3>
+                                <div class="c-card__desc">
+                                    {{ main_news.text }}
+                                </div>
+                                <a href="/news/{{ main_news.news_id }}" class="c-card__more">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end c-card -->
+
+        </div>
+        <div class="portfolioContainer wow fadeInUp delay-04s">
+
+            {% for n in secondary_news %}
+
+
+                <div class=" News-box">
+
+                    <!-- begin c-card -->
+                    <div class="c-card">
+                        <div class="c-card__wrapper"
+                             style="background-image: url({{ n.image_link }})">
+                            <div class="c-card__header">
+                                <!-- begin c-date -->
+                                <div class="c-date">
+                                    <span class="c-date__day">{{ n.date }}</span>
+                                    {#                                <span class="c-date__month">Января</span>#}
+                                    {#                                <span class="c-date__year">2018</span>#}
+                                </div>
+                                <!-- end c-date -->
+                                <!-- begin c-info -->
+                                <ul class="c-info">
+                                    <li><a href="#" class="far fa-bookmark" style="background-color: rgba(38, 38, 38, 0.72);"><span style="background-color: rgba(38, 38, 38, 0.72);">{{ n.favourites }}</span></a></li>
+                                    {#                                <li><a href="#" class="far fa-heart"><span>24</span></a></li>#}
+                                    {#                                <li><a href="#" class="far fa-comment"><span>4</span></a></li>#}
+                                </ul>
+                                <!-- end c-info -->
+                            </div>
+                            <div class="c-card__body">
+                                <div class="c-card__content">
+                                    {#                                <div class="c-card__author">Александр Иванов</div>#}
+                                    <h3 class="c-card__title">
+                                        <a href="/news/{{ n.news_id }}">{{ n.title }}</a>
+                                    </h3>
+                                    <div class="c-card__desc">
+                                        {{ n.text }}
+                                    </div>
+                                    <a href="/news/{{ n.news_id }}" class="c-card__more">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end c-card -->
+
+                </div>
+
+
+            {% endfor %}
+
+        </div>
+
+    </section>
+
+{% endblock %}

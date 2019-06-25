@@ -1,0 +1,46 @@
+{% block telegram-space %}
+    {% if username == '' %}
+        <section class="telegram-space">
+            <div class="container">
+                <h2 id="start">Registration via telegram</h2>
+            </div>
+            <div class="container">
+                <a style="text-decoration: none" href="{{ telegram_chat_bot_link }}">
+                    <button class="btn btn-light btn-lg btn-block"><i class="fa fa-telegram"></i> SIGN UP VIA TELEGRAM
+                        BOT
+                    </button>
+                </a>
+            </div>
+        </section>
+    {% endif %}
+    {% if username != '' %}
+        <section class="telegram-space">
+            <div class="container">
+                <h2>Join to the telegram community</h2>
+            </div>
+            <div class="container">
+                {% if telegram_id == '' %}
+                    <a style="text-decoration: none" href="{{ telegram_chat_bot_link }}">
+                        <button class="btn btn-light btn-lg btn-block"><i class="fa fa-cogs"></i> CONNECT VIA TELEGRAM
+                            BOT
+                        </button>
+                    </a>
+                {% endif %}
+                {% if telegram_id != '' %}
+                    <a style="text-decoration: none" href="{{ telegram_chat_bot_link }}">
+                        <button class="btn btn-outline-light"><i class="fa fa-cogs"></i> TELEGRAM CHAT BOT</button>
+                    </a>
+                    <a style="text-decoration: none" href="{{ telegram_scanner_bot_link }}">
+                        <button class="btn btn-outline-light"><i class="fa fa-bar-chart"></i> TELEGRAM SCANNER BOT
+                        </button>
+                    </a>
+                    <a style="text-decoration: none" href="{{ telegram_chat_link }}">
+                        <button class="btn btn-outline-light"><i class="fa fa-comments-o"></i> TELEGRAM CHAT</button>
+                    </a>
+                {% endif %}
+            </div>
+        </section>
+    {% endif %}
+
+    {#    <section class="main-section" id="service"></section>#}
+{% endblock %}

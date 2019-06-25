@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.rawgit.com/mervick/emojionearea/master/dist/emojionearea.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat</title>
+    <link rel="stylesheet" type="text/css"
+          href="{% static 'css/style.css' %}"/>
+</head>
+<body>
+<div id="response"></div>
+{#<script>#}
+{#    function show() {#}
+{#        $.post(#}
+{#            "checkForUpdate/",#}
+{#            {#}
+{#                command: "new-message"#}
+{#            },#}
+{#            function (html) {#}
+{#                $("#response").html($("#response").html() + "<br>" + html);#}
+{#            }#}
+{#        );#}
+{#    }#}
+{##}
+{#    $(document).ready(function () {#}
+{#        show();#}
+{#        setInterval('show()', 0);#}
+{#    });#}
+{#</script>#}
+
+{#<div id="wrapper" class="wrapper">#}
+{#    <div id="menu">#}
+{#        <p class="welcome">Welcome, <b></b></p>#}
+{#        <p class="logout"><a id="exit" href="">Exit Chat</a></p>#}
+{#        <div style="clear:both"></div>#}
+{#    </div>#}
+{##}
+{#    <div id="chatbox">#}
+{##}
+{#    </div>#}
+{##}
+{#    <form name="message" action="">#}
+{#        <input name="usermsg" type="text" id="usermsg" size="63"/>#}
+{#        <input name="submitmsg" type="submit" id="submitmsg" value="Send"/>#}
+{#    </form>#}
+{##}
+{#</div>#}
+</body>
+</html>
+
