@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ news_full.title }}</title>
+</head>
+<body>
+<img src="{{ news_full.main_image_link }}">
+<h1>{{ news_full.title }}</h1>
+
+{% for block in news_full.blocks %}
+    {% if block.text != null %}
+        <h2>{{ block.text }}</h2>
+    {% endif %}
+    {% for image in  block.images %}
+        <img src="{{ image }}">
+    {% endfor %}
+
+{% endfor %}
+
+<h2></h2>
+</body>
+</html>

@@ -67,7 +67,6 @@ def get_tg_user_id(connection, user_id):
     cursor.execute(query, (user_id,))
     data = cursor.fetchall()
     if len(data) > 0:
-        print("*" + functools.reduce(operator.add, data[0]) + "*")
         return functools.reduce(operator.add, data[0])
     else:
         return ''
