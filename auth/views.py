@@ -31,7 +31,7 @@ def login(request):
                 return HttpResponse(result)
             elif not result:
                 return HttpResponse(result)
-    return render(request, 'auth/auth.html', {'value': 'login'})
+    return render(request, 'auth/auth.html', {'page': 'login', 'message': ''})
 
 
 @csrf_exempt
@@ -49,4 +49,4 @@ def sign_up(request):
             password = request.POST['password']
             request.session['user_id'] = users_table.register_user(database.get_connection(), username, password)
             return HttpResponse('True')
-    return render(request, 'auth/auth.html', {'value': 'signup'})
+    return render(request, 'auth/auth.html', {'page': 'signup', 'message': ''})

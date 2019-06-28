@@ -1,0 +1,25 @@
+{% block header %}
+
+    {% if username == '' %}
+
+
+        <header class="header" id="header">
+            <div class="container">
+                <figure class="logo animated fadeInDown delay-07s">
+                    {#            <a href="#"><img src="https://image.rabotanur.kz/v/XvmmVWjgBYiZySykWBM8qtUU.jpg"#}
+                    {#                             alt="logo,which doesnt creat"></a>#}
+                </figure>
+                <h1 class="animated fadeInDown delay-07s"
+                    style="font-family: 'Libre Barcode 39 Text', cursive; font-size: 80px">GIMMICK</h1>
+                <ul class="we-create animated fadeInUp delay-1s">
+                    <li>
+                        The latest news from the world of IT security
+                    </li>
+                </ul>
+                <a class="link animated fadeInUp delay-1s servicelink" href="#start">Get Started</a>
+            </div>
+        </header>
+
+    {% endif %}
+
+{% endblock %}

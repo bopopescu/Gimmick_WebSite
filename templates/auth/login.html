@@ -1,20 +1,27 @@
 {% block main %}
     {% load static %}
 
+    {% if message != '' %}
+        <p style="border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: red; color: white; font-size: 18px; margin-bottom: 25px"
+        ><i class="fa fa-info-circle"></i> {{ message }} </p>
+    {% endif %}
+
     <span class="login100-form-title p-b-49">
 						Login
 					</span>
 
     <div class="wrap-input100 validate-input m-b-23" id="username-div" data-validate="Username is required">
         <span class="label-input100">Username</span>
-        <input class="input100" type="text" id="username-field" onkeypress="onEnterClicked(event)" onchange="removeUsernameAlertValidate()"
+        <input class="input100" type="text" id="username-field" onkeypress="onEnterClicked(event)"
+               onchange="removeUsernameAlertValidate()"
                placeholder="Type your username">
         <span class="focus-input100" data-symbol="&#xf206;"></span>
     </div>
 
     <div class="wrap-input100 validate-input" id="password-div" data-validate="Password is required">
         <span class="label-input100">Password</span>
-        <input class="input100" type="password" id="password-field" onkeypress="onEnterClicked(event)" onchange="removePasswordAlertValidate()"
+        <input class="input100" type="password" id="password-field" onkeypress="onEnterClicked(event)"
+               onchange="removePasswordAlertValidate()"
                placeholder="Type your password">
         <span class="focus-input100" data-symbol="&#xf190;"></span>
     </div>
@@ -63,7 +70,7 @@
 						</span>
 
         <h2>
-            <a href="../signup" class="txt2">
+            <a href="../../auth/signup" class="txt2">
                 Sign up
             </a>
         </h2>

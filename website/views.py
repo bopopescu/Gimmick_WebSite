@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.views.decorators.cache import cache_page
 
 from database.bot_data_schema import general_values_table
 from database.data_schema import users_table, news_table
@@ -7,6 +8,7 @@ from database.database_connection import Database
 database = Database()
 
 
+# @cache_page(600, cache='default', key_prefix='')
 def index(request):
     # while not connection.is_connected():
     #     connection = database_connection.connect()
@@ -17,7 +19,7 @@ def index(request):
     telegram_chat_link = general_values_table.get_value(database.get_connection(), "CHAT_LINK")
     telegram_id = ''
     main_news = news_table.get_last_high_priority_news(database.get_connection())
-    secondary_news = news_table.get_tree_last_news(database.get_connection(), main_news.news_id)
+    secondary_news = news_table.get_three_last_news(database.get_connection(), main_news.news_id)
     if request.session.__contains__('user_id'):
         user_id = request.session['user_id']
         username = users_table.get_username(database.get_connection(), user_id)

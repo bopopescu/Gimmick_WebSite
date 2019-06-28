@@ -10,14 +10,18 @@ database = Database()
 
 @csrf_exempt
 def news(request):
-    # if not request.session.__contains__('user_id'):
-    #     return render(request, 'news/error.html')
-
-    # while not database.connection.is_connected():
-    #     connection = database_connection.connect()
-
-    news_id = 0
+    if not request.session.__contains__('user_id'):
+        return render(request, 'auth/auth.html', {
+            'page': 'login',
+            'message': 'Вы должны войти в систему либо зарегестрироваться чтобы '
+                       'получить возможность насладиться новостью'
+        })
     if request.method == 'GET':
         news_id = request.GET['news_id']
     news_full = news_table.get_full_news_by_id(database.get_connection(), news_id)
     return render(request, 'news/news.html', {'news_full': news_full})
+    # while not database.connection.is_connected():
+    #     connection = database_connection.connect()
+
+
+

@@ -1,11 +1,6 @@
-import functools
-import hashlib
-import operator
-
 from mysql.connector.cursor import MySQLCursorPrepared
 
-from database import news
-from database.news import News, NewsFull, Block
+from database.objects.news import News, NewsFull, Block
 
 
 def get_last_high_priority_news(connection):
@@ -48,7 +43,7 @@ def get_news_main_images_links(connection, news_id, block):
     return images
 
 
-def get_tree_last_news(connection, high_priority_id):
+def get_three_last_news(connection, high_priority_id):
     query = """SELECT id, title, block_1, date FROM data_schema.news WHERE id!=%s ORDER BY id DESC"""
     cursor = connection.cursor(cursor_class=MySQLCursorPrepared)
     cursor.execute(query, (high_priority_id,))

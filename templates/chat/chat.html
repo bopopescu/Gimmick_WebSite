@@ -14,26 +14,147 @@
     <link rel="stylesheet" type="text/css"
           href="{% static 'css/style.css' %}"/>
 </head>
+
+<style>
+    body {
+        margin: 0 auto;
+        max-width: 800px;
+        padding: 0 20px;
+    }
+
+    .container {
+        border: 2px solid #dedede;
+        background-color: #f1f1f1;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .darker {
+        border-color: #ccc;
+        background-color: #ddd;
+    }
+
+    .container::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .container img {
+        float: left;
+        max-width: 60px;
+        width: 100%;
+        margin-right: 20px;
+        border-radius: 50%;
+    }
+
+    .container img.right {
+        float: right;
+        margin-left: 20px;
+        margin-right: 0;
+    }
+
+    .time-right {
+        float: right;
+        color: #aaa;
+    }
+
+    .time-left {
+        float: left;
+        color: #999;
+    }
+</style>
+</head>
 <body>
+
+<h2>Chat Messages</h2>
+
+{% for message in messages %}
+    {% if message.user_id == current_user_id %}
+
+        <div class="container darker">
+            <img src="{{ message.user.avatar_link }}" alt="Avatar" class="right" style="width:100%;">
+            <p>{{ message.text }}</p>
+            <span class="time-left">{{ message.time }}</span>
+        </div>
+
+    {% endif %}
+    {% if message.user_id != current_user_id %}
+
+        <div class="container">
+            <img src="{{ message.user.avatar_link }}" alt="Avatar" style="width:100%;">
+            <p>{{ message.text }}</p>
+            <span class="time-right">{{ message.time }}</span>
+        </div>
+
+    {% endif %}
+{% endfor %}
+
 <div id="response"></div>
-{#<script>#}
-{#    function show() {#}
-{#        $.post(#}
-{#            "checkForUpdate/",#}
-{#            {#}
-{#                command: "new-message"#}
-{#            },#}
-{#            function (html) {#}
-{#                $("#response").html($("#response").html() + "<br>" + html);#}
-{#            }#}
-{#        );#}
-{#    }#}
-{##}
-{#    $(document).ready(function () {#}
-{#        show();#}
-{#        setInterval('show()', 0);#}
-{#    });#}
-{#</script>#}
+<script>
+
+    current_id = 0;
+
+    $.post(
+        "checkForUpdate/",
+        {
+            command: "get-last-id"
+        },
+        function (result) {
+            current_id = result;
+        }
+    );
+
+    function show() {
+
+
+        $.post(
+            "checkForUpdate/",
+            {
+                'command': "new-update",
+                'current_id': current_id
+            },
+            function (result) {
+{#Тут не работает#}
+                alert(result);
+                parsedResult = JSON.parse(result);
+
+
+                if (parsedResult.command === 'new-message') {
+
+                    if (parsedResult.userId === {{ current_user_id }}) {
+                        $("#response").html($("#response").html() +
+
+                            '<div class="container darker">\n' +
+                            '            <img src="' + parsedResult.avatar_link + '" alt="Avatar" class="right" style="width:100%;">\n' +
+                            '            <p>' + parsedResult.message_text + '</p>\n' +
+                            '            <span class="time-left">' + parsedResult.message_time + '</span>\n' +
+                            '        </div>'
+                        );
+                    } else {
+                        $("#response").html($("#response").html() +
+
+
+                            '<div class="container">\n' +
+                            '            <img src="' + parsedResult.avatar_link + '" alt="Avatar" style="width:100%;">\n' +
+                            '            <p>' + parsedResult.message_text + '</p>\n' +
+                            '            <span class="time-right">' + parsedResult.message_time + '</span>\n' +
+                            '        </div>'
+                        );
+                    }
+                    current_id++;
+
+                }
+            }
+        );
+    }
+
+    $(document).ready(function () {
+        show();
+        setInterval('show()', 5000);
+    });
+</script>
 
 {#<div id="wrapper" class="wrapper">#}
 {#    <div id="menu">#}
@@ -52,6 +173,9 @@
 {#    </form>#}
 {##}
 {#</div>#}
+
 </body>
+
+
 </html>
 
