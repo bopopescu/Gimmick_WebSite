@@ -72,11 +72,21 @@ def update(request):
                 if decrypted_update['command'] == 'new-message':
                     message = json.loads(decrypted_update['value'])
                     print(message['time'])
-                    return HttpResponse("""{
-                        'command': 'new-message',
-                        'userId': message['userId'],
-                        'message_text': message['messageText'],
-                        'avatar_link': users_information_table.get_avatar_link(database.get_connection(),
-                                                                               message['userId']),
-                        'message_time': datetime.datetime.fromtimestamp(int(message['time']) / 1000.0)
-                    }""")
+                    response = json.dumps(
+                        {
+                            'command': 'new-message',
+                            'userId': message['userId'],
+                            'message_text': message['messageText'],
+                            'avatar_link': users_information_table.get_avatar_link(database.get_connection(), message['userId']),
+                            'message_time': datetime.datetime.fromtimestamp(message['time'] / 1000.0).strftime("%H:%M:%S - %b %d %Y")
+                        }
+                    )
+                    # str_time = datetime.datetime.fromtimestamp(message['time'] / 1000.0).strftime("%H:%M:%S - %b %d %Y")
+                    # response = json.dumps(
+                    #     {
+                    #         'new-message', message['userId'], message['messageText'],
+                    #         users_information_table.get_avatar_link(database.get_connection(), message['userId']),
+                    #         "blablabla"
+                    #     }
+                    # )
+                    return HttpResponse(response)

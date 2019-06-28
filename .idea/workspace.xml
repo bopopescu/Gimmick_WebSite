@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fbba215-f4ee-4453-9bcf-f846107c0143" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/objects/message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/objects/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/website/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/auth/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chat/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/data_schema/news_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/data_schema/news_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/news.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/objects/news.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/objects/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/data_schema/users_information_table.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/auth/auth.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/auth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/auth/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/auth/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/signup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/chat/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/chat/chat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/news/error.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/website/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/website/navigaton.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/website/navigaton.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,11 +83,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="76" column="34" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
+            <state relative-caret-position="161">
+              <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -111,10 +96,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/json/encoder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3026">
+              <caret line="178" selection-start-line="178" selection-end-line="178" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/chat/chat.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="116" column="14" lean-forward="true" selection-start-line="116" selection-start-column="14" selection-end-line="116" selection-end-column="14" />
+            <state relative-caret-position="375">
+              <caret line="145" column="47" lean-forward="true" selection-start-line="145" selection-start-column="47" selection-end-line="145" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -153,7 +159,6 @@
         <option value="$PROJECT_DIR$/database/database_connection.py" />
         <option value="$PROJECT_DIR$/database/data_schema/users_table.py" />
         <option value="$PROJECT_DIR$/database/news.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/database/objects/user.py" />
         <option value="$PROJECT_DIR$/database/objects/message.py" />
         <option value="$PROJECT_DIR$/database/data_schema/users_information_table.py" />
@@ -164,18 +169,19 @@
         <option value="$PROJECT_DIR$/templates/website/navigaton.html" />
         <option value="$PROJECT_DIR$/news/views.py" />
         <option value="$PROJECT_DIR$/auth/views.py" />
-        <option value="$PROJECT_DIR$/website/views.py" />
         <option value="$PROJECT_DIR$/database/data_schema/news_table.py" />
-        <option value="$PROJECT_DIR$/templates/chat/chat.html" />
+        <option value="$PROJECT_DIR$/website/views.py" />
         <option value="$PROJECT_DIR$/chat/views.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/templates/chat/chat.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="644" />
-    <option name="y" value="-10" />
-    <option name="width" value="780" />
-    <option name="height" value="1041" />
+    <option name="x" value="-17" />
+    <option name="y" value="-28" />
+    <option name="width" value="1850" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -190,79 +196,34 @@
         <subPane>
           <expand>
             <path>
-              <item name="Gimmick_Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gimmick_Website" type="462c0819:PsiDirectoryNode" />
+              <item name="Gimmick_WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gimmick_WebSite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Gimmick_Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gimmick_Website" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gimmick_Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gimmick_Website" type="462c0819:PsiDirectoryNode" />
+              <item name="Gimmick_WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gimmick_WebSite" type="462c0819:PsiDirectoryNode" />
               <item name="chat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Gimmick_Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gimmick_Website" type="462c0819:PsiDirectoryNode" />
+              <item name="Gimmick_WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gimmick_WebSite" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Gimmick_Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gimmick_Website" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="bot_data_schema" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gimmick_Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gimmick_Website" type="462c0819:PsiDirectoryNode" />
+              <item name="Gimmick_WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gimmick_WebSite" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
               <item name="data_schema" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Gimmick_Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gimmick_Website" type="462c0819:PsiDirectoryNode" />
+              <item name="Gimmick_WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gimmick_WebSite" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
               <item name="objects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Gimmick_Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gimmick_Website" type="462c0819:PsiDirectoryNode" />
-              <item name="news" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gimmick_Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gimmick_Website" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gimmick_Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gimmick_Website" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gimmick_Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gimmick_Website" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="chat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gimmick_Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gimmick_Website" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="news" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gimmick_Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gimmick_Website" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gimmick_Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gimmick_Website" type="462c0819:PsiDirectoryNode" />
+              <item name="Gimmick_WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gimmick_WebSite" type="462c0819:PsiDirectoryNode" />
               <item name="website" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -277,7 +238,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../123/Gimmick_Website" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -347,17 +308,21 @@
       <workItem from="1561565253868" duration="2994000" />
       <workItem from="1561639744882" duration="529000" />
       <workItem from="1561654680014" duration="10736000" />
+      <workItem from="1561698884448" duration="414000" />
+      <workItem from="1561699682963" duration="4387000" />
+      <workItem from="1561705120249" duration="597000" />
+      <workItem from="1561711131883" duration="539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36065000" />
+    <option name="totallyTimeSpent" value="42002000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19509594" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20576407" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -371,14 +336,14 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32931727" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.34288865" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3145917" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50067025" side_tool="true" weight="0.32931727" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.24360341" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.24329759" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18900804" />
@@ -466,13 +431,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/news/error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/news/error.html" />
     <entry file="file://$PROJECT_DIR$/Gimmick_Website/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
@@ -703,13 +662,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="780" selection-start-line="780" selection-end-line="780" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/threading.py" />
     <entry file="file://$PROJECT_DIR$/auth/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
@@ -720,51 +673,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/handlers/base.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/handlers/base.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/_sitebuiltins.py" />
+    <entry file="file://$PROJECT_DIR$/database/data_schema/news_table.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        <state relative-caret-position="-257">
+          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/json/encoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3026">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="408">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/data_schema/news_table.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/_sitebuiltins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/chat/chat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="116" column="14" lean-forward="true" selection-start-line="116" selection-start-column="14" selection-end-line="116" selection-end-column="14" />
+    <entry file="das://57076928-658a-413f-8bf3-a6a1fdfd3380/schema/data_schema/table/questions">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="c85227ca-48a3-454b-9c75-b845f8a6204a">
+          <filtering>
+            <filter text="" />
+          </filtering>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chat/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="76" column="34" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
+        <state relative-caret-position="161">
+          <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/chat/chat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="145" column="47" lean-forward="true" selection-start-line="145" selection-start-column="47" selection-end-line="145" selection-end-column="47" />
         </state>
       </provider>
     </entry>
