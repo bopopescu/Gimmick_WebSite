@@ -28,10 +28,12 @@ updates = []
 
 
 def check_updates():
+    global updates
     while True:
-        global updates
         inp = sock.recv(1024)
         updates.append(inp)
+        print(inp)
+        print(len(updates))
 
 
 if result['value'] == 'connected':
@@ -90,3 +92,4 @@ def update(request):
                     #     }
                     # )
                     return HttpResponse(response)
+    return HttpResponse("")

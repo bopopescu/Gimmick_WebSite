@@ -95,6 +95,7 @@
 <script>
 
     var current_id = 0;
+    var flag = true;
 
     $.post(
         "checkForUpdate/",
@@ -105,8 +106,10 @@
             current_id = result;
         }
     );
-
     function show() {
+        if ( flag === false)
+            return;
+        flag = false;
 
 
         $.post(
@@ -143,16 +146,19 @@
                             '        </div>'
                         );
                     }
-                    current_id = current_id + 1 ;
+
 
                 }
             }
         );
+        current_id = current_id + 1;
+        flag = true;
     }
 
     $(document).ready(function () {
         show();
-        setInterval('show()', 1000);
+        console.log(current_id);
+        setInterval('show()', 500);
     });
 </script>
 

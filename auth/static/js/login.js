@@ -17,8 +17,8 @@ function button_click() {
         return;
     }
 
+    console.log("Button click");
     body.classList.add("loading");
-
     $.post(
         "",
         {
