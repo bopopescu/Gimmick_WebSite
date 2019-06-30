@@ -3,6 +3,7 @@ import threading
 
 from django.http import HttpResponse
 from django.shortcuts import render
+from django.views.decorators.cache import cache_control
 from django.views.decorators.csrf import csrf_exempt
 import json
 import socket
@@ -55,14 +56,17 @@ def index(request):
 
 
 @csrf_exempt
+@cache_control(no_cache=True)
 def update(request):
+    print(request.POST['command'])
+    current_id = int(request.POST['current_id'])
+    print(current_id)
     global updates
     if not request.session.__contains__('user_id'):
         return render(request, 'auth/auth.html', {
             'page': 'login',
             'message': 'Вы должны войти в систему либо зарегестрироваться чтобы общаться с другими пользователями'
         })
-
     if request.method == 'POST':
         if request.POST['command'] == 'get-last-id':
             return HttpResponse(len(updates))
@@ -70,12 +74,11 @@ def update(request):
             if len(updates) > int(request.POST['current_id']):
                 current_id = int(request.POST['current_id'])
                 decrypted_update = json.loads(updates[current_id])
-                print(updates[current_id])
                 if decrypted_update['command'] == 'new-message':
                     message = json.loads(decrypted_update['value'])
-                    print(message['time'])
                     response = json.dumps(
                         {
+                            'update_id': current_id,
                             'command': 'new-message',
                             'userId': message['userId'],
                             'message_text': message['messageText'],

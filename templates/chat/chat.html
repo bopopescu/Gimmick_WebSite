@@ -126,6 +126,11 @@
 
                 if (parsedResult.command === 'new-message') {
 
+                    if (parsedResult.update_id === (current_id-1))
+                    {
+                        console.log("back");
+                        return;
+                    }
                     if (parsedResult.userId === {{ current_user_id }}) {
                         $("#response").html($("#response").html() +
 
@@ -146,19 +151,20 @@
                             '        </div>'
                         );
                     }
-
+                    if (parsedResult.update_id === current_id)
+                        current_id++;
 
                 }
             }
         );
-        current_id = current_id + 1;
+
         flag = true;
     }
 
     $(document).ready(function () {
         show();
         console.log(current_id);
-        setInterval('show()', 500);
+        setInterval('show()', 20);
     });
 </script>
 
