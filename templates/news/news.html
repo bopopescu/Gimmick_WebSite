@@ -1,8 +1,14 @@
+{% load staticfiles%}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>{{ news_full.title }}</title>
+    <style rel="stylesheet" type="text/css" href="{% static 'news/css/foundation.css' %}"></style>
+    <style rel="stylesheet" type="text/css" href="{% static 'news/css/app.css' %}"></style>
+    <script type="text/javascript" src="{% static 'news/js/app.js' %}"></script>
+    <script type="text/javascript" src="{% static 'news/js/vendor/foundation.js' %}"></script>
+    <script type="text/javascript" src="{% static 'news/js/vendor/jquery.js' %}"></script>
 </head>
 <body>
 <img src="{{ news_full.main_image_link }}">
@@ -13,11 +19,23 @@
         <h2>{{ block.text }}</h2>
     {% endif %}
     {% for image in  block.images %}
-        <img src="{{ image }}">
+        <div class="card" style="width: 300px;">
+  <div class="card-divider">
+    This is a header
+  </div>
+  <img src="{{ image }}">
+  <div class="card-section">
+    <h4>This is a card.</h4>
+    <p>It has an easy to override visual style, and is appropriately subdued.</p>
+  </div>
+</div>
+{#        <img src="{{ image }}">#}
     {% endfor %}
 
 {% endfor %}
 
 <h2></h2>
+
+
 </body>
 </html>
