@@ -82,7 +82,7 @@ def update(request):
                             'command': 'new-message',
                             'userId': message['userId'],
                             'message_text': message['messageText'],
-                            'avatar_link': users_information_table.get_avatar_link(database.get_connection(), message['userId']),
+                            # 'avatar_link': users_information_table.get_avatar_link(database.get_connection(), message['userId']),
                             'message_time': datetime.datetime.fromtimestamp(message['time'] / 1000.0).strftime("%H:%M:%S - %b %d %Y")
                         }
                     )

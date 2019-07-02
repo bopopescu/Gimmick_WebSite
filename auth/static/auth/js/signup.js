@@ -45,7 +45,7 @@ function button_click() {
 
     body.classList.add("loading");
     $.post(
-        "",
+        "../../../auth/signup/",
         {
             'command': "is_user_exists",
             'username': username
@@ -57,7 +57,7 @@ function button_click() {
             } else if (text === 'False') {
                 let encrypted_password = Crypto.MD5(password);
                 $.post(
-                    "",
+                    "../../../auth/signup/",
                     {
                         'command': "signup",
                         'username': username,

@@ -19,4 +19,5 @@ class Database:
                                                   host='kaibchat.cr4kq43qy8ak.us-east-2.rds.amazonaws.com',
                                                   database='kd85nasm9l',
                                                   use_pure=True)
+        print("Connection has been returned")
         return self.connection

@@ -20,7 +20,7 @@ function button_click() {
     console.log("Button click");
     body.classList.add("loading");
     $.post(
-        "",
+        "../../../auth/login/",
         {
             'command': "is_user_exists",
             'username': username
@@ -32,7 +32,7 @@ function button_click() {
             } else if (text === 'True') {
                 let encrypted_password = Crypto.MD5(password);
                 $.post(
-                    "",
+                    "../../../auth/login/",
                     {
                         'command': "login",
                         'username': username,

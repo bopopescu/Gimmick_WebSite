@@ -2,180 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fbba215-f4ee-4453-9bcf-f846107c0143" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/auth/static/auth/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/static/auth/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/static/auth/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/static/auth/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/static/auth/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/static/auth/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/static/auth/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/static/auth/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/static/auth/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/static/auth/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/static/auth/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/static/auth/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/static/news/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/static/news/css/foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/static/news/css/foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/static/news/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/static/news/js/vendor/foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/static/news/js/vendor/foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/static/news/js/vendor/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/static/news/js/vendor/what-input.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Gimmick_Website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Gimmick_Website.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/website/services-space.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimmick_Website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gimmick_Website/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/css/animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/css/auth.css" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/css/auth.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap-grid.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/css/dashboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/css/hamburgers.css" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/css/hamburgers.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/css/hamburgers.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/css/hamburgers.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/css/perfect-scrollbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/css/perfect-scrollbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/css/process.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/css/process.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/css/util.css" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/css/util.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/less/animated.less" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/less/animated.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/less/bordered-pulled.less" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/less/core.less" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/less/core.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/less/fixed-width.less" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/less/font-awesome.less" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/less/icons.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/less/larger.less" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/less/larger.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/less/list.less" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/less/list.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/less/path.less" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/less/path.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/less/rotated-flipped.less" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/less/screen-reader.less" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/less/stacked.less" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/less/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/scss/_animated.scss" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/scss/_larger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/scss/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/scss/_path.scss" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/scss/_stacked.scss" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/font-awesome-4.7.0/scss/font-awesome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/iconic/css/material-design-iconic-font.css" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/iconic/css/material-design-iconic-font.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/iconic/css/material-design-iconic-font.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/iconic/css/material-design-iconic-font.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/poppins/Poppins-Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/poppins/Poppins-Black.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/poppins/Poppins-BlackItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/poppins/Poppins-BlackItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/poppins/Poppins-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/poppins/Poppins-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/poppins/Poppins-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/poppins/Poppins-BoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/poppins/Poppins-ExtraBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/poppins/Poppins-ExtraBold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/poppins/Poppins-ExtraBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/poppins/Poppins-ExtraBoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/poppins/Poppins-ExtraLight.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/poppins/Poppins-ExtraLight.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/poppins/Poppins-ExtraLightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/poppins/Poppins-ExtraLightItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/poppins/Poppins-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/poppins/Poppins-Italic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/poppins/Poppins-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/poppins/Poppins-Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/poppins/Poppins-LightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/poppins/Poppins-LightItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/poppins/Poppins-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/poppins/Poppins-Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/poppins/Poppins-MediumItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/poppins/Poppins-MediumItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/poppins/Poppins-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/poppins/Poppins-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/poppins/Poppins-SemiBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/poppins/Poppins-SemiBold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/poppins/Poppins-SemiBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/poppins/Poppins-SemiBoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/poppins/Poppins-Thin.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/poppins/Poppins-Thin.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/fonts/poppins/Poppins-ThinItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/fonts/poppins/Poppins-ThinItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/images/bg-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/images/bg-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/images/icons/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/images/icons/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/images/logo 2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/images/logo 2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/images/size5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/images/size5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/images/size6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/images/size6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/js/2.5.3-crypto-md5.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/js/2.5.3-crypto-md5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/js/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/js/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/js/bootstrap.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/js/bootstrap.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/js/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/js/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/js/jquery-3.4.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/js/jquery-3.4.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/js/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/js/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/js/particles.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/js/particles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/js/particles.json" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/js/particles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/js/particles.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/js/particles.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/js/perfect-scrollbar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/js/perfect-scrollbar.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/static/js/signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/js/signup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/chat/static/chat/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/auth/css/auth.css" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/css/auth.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/auth/js/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/js/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/auth/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/auth/js/signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/auth/js/signup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/database_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/database_connection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/auth/auth.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/auth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/auth/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/auth/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/news/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news/news.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/website/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/contactform/contactform.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/contactform/contactform.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/css/animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/css/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/css/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/css/magnific-popup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/favicon1.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/favicon1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/fonts/Pervitina-Dex-FFP.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/fonts/Pervitina-Dex-FFP.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/img/bg-map.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/img/bg-map.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/img/chat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/img/chat.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/img/footer-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/img/footer-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/img/glyphicons-halflings-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/img/glyphicons-halflings-white.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/img/glyphicons-halflings.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/img/glyphicons-halflings.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/img/macbook-pro.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/img/macbook-pro.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/img/pw_maze_black.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/img/pw_maze_black.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/img/pw_maze_black_2X.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/img/pw_maze_black_2X.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/img/res_nav_click.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/img/res_nav_click.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/img/section-bg1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/img/section-bg1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/img/section-bg2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/img/section-bg2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/img/telegram-wallpaper-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/img/telegram-wallpaper-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/js/classie.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/js/classie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/js/html5element.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/js/html5element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/js/html5shiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/js/html5shiv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/js/jquery-scrolltofixed.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/js/jquery-scrolltofixed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/js/jquery.1.8.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/js/jquery.1.8.3.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/js/jquery.easing.1.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/js/jquery.easing.1.3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/js/jquery.isotope.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/js/jquery.isotope.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/js/magnific-popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/js/magnific-popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/js/respond-1.1.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/js/respond-1.1.0.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/js/wow.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/js/wow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/website/navigaton.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/website/navigaton.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/website/news-space.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/website/news-space.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -255,19 +106,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gimmick_Website/settings.py">
+        <entry file="file://$PROJECT_DIR$/templates/website/navigaton.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="131" column="9" selection-start-line="131" selection-start-column="9" selection-end-line="131" selection-end-column="9" />
+            <state relative-caret-position="106">
+              <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/news/views.py">
+        <entry file="file://$PROJECT_DIR$/templates/website/news-space.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="60">
+              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gimmick_Website/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/website/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2861">
+              <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/website/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -276,59 +154,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/news/static/news/css/app.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/news/news.html">
+        <entry file="file://$PROJECT_DIR$/templates/website/services-space.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/news/static/news/css/foundation.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="3569" column="26" selection-start-line="3569" selection-start-column="23" selection-end-line="3569" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/auth/auth.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/website/navigaton.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/website/header.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/chat/chat.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2520">
-              <caret line="168" column="9" selection-start-line="168" selection-start-column="9" selection-end-line="168" selection-end-column="9" />
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -338,10 +167,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="Python Script" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -351,6 +180,9 @@
       <find>c-car</find>
       <find>print</find>
       <find>row</find>
+      <find>scrollTo</find>
+      <find>inline</find>
+      <find>body</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -363,31 +195,37 @@
         <option value="$PROJECT_DIR$/templates/news/error.html" />
         <option value="$PROJECT_DIR$/Gimmick_Website/urls.py" />
         <option value="$PROJECT_DIR$/news/urls.py" />
-        <option value="$PROJECT_DIR$/templates/website/news-space.html" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2678b93a-d6c6-49f7-9596-aba7d9b99cf7/console.sql" />
-        <option value="$PROJECT_DIR$/database/database_connection.py" />
         <option value="$PROJECT_DIR$/database/data_schema/users_table.py" />
         <option value="$PROJECT_DIR$/database/news.py" />
         <option value="$PROJECT_DIR$/database/objects/user.py" />
         <option value="$PROJECT_DIR$/database/objects/message.py" />
         <option value="$PROJECT_DIR$/database/data_schema/users_information_table.py" />
-        <option value="$PROJECT_DIR$/templates/website/navigaton.html" />
         <option value="$PROJECT_DIR$/news/views.py" />
         <option value="$PROJECT_DIR$/auth/views.py" />
         <option value="$PROJECT_DIR$/database/data_schema/news_table.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/auth/static/js/login.js" />
         <option value="$PROJECT_DIR$/templates/chat/chat.html" />
-        <option value="$PROJECT_DIR$/chat/views.py" />
-        <option value="$PROJECT_DIR$/website/views.py" />
         <option value="$PROJECT_DIR$/static/123.js" />
         <option value="$PROJECT_DIR$/static/st.css" />
-        <option value="$PROJECT_DIR$/templates/website/index.html" />
-        <option value="$PROJECT_DIR$/Gimmick_Website/settings.py" />
-        <option value="$PROJECT_DIR$/templates/auth/auth.html" />
         <option value="$PROJECT_DIR$/templates/auth/login.html" />
         <option value="$PROJECT_DIR$/templates/auth/signup.html" />
         <option value="$PROJECT_DIR$/templates/news/news.html" />
+        <option value="$PROJECT_DIR$/database/database_connection.py" />
+        <option value="$PROJECT_DIR$/chat/views.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/auth/static/auth/js/auth.js" />
+        <option value="$PROJECT_DIR$/auth/static/auth/js/signup.js" />
+        <option value="$PROJECT_DIR$/auth/static/auth/js/login.js" />
+        <option value="$PROJECT_DIR$/templates/website/header.html" />
+        <option value="$PROJECT_DIR$/templates/auth/auth.html" />
+        <option value="$PROJECT_DIR$/auth/static/auth/css/auth.css" />
+        <option value="$PROJECT_DIR$/Gimmick_Website/settings.py" />
+        <option value="$PROJECT_DIR$/templates/website/news-space.html" />
+        <option value="$PROJECT_DIR$/templates/website/navigaton.html" />
+        <option value="$PROJECT_DIR$/templates/website/services-space.html" />
+        <option value="$PROJECT_DIR$/templates/website/index.html" />
+        <option value="$PROJECT_DIR$/website/views.py" />
       </list>
     </option>
   </component>
@@ -416,6 +254,42 @@
               <item name="Gimmick_Website" type="b2602c69:ProjectViewProjectNode" />
               <item name="Gimmick_Website" type="462c0819:PsiDirectoryNode" />
               <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gimmick_Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gimmick_Website" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gimmick_Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gimmick_Website" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gimmick_Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gimmick_Website" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gimmick_Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gimmick_Website" type="462c0819:PsiDirectoryNode" />
+              <item name="chat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gimmick_Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gimmick_Website" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gimmick_Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gimmick_Website" type="462c0819:PsiDirectoryNode" />
+              <item name="Gimmick_Website" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Gimmick_Website" type="b2602c69:ProjectViewProjectNode" />
@@ -459,6 +333,12 @@
               <item name="Gimmick_Website" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="news" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gimmick_Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gimmick_Website" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Gimmick_Website" type="b2602c69:ProjectViewProjectNode" />
@@ -558,17 +438,22 @@
       <workItem from="1561827569166" duration="4396000" />
       <workItem from="1561836410385" duration="4478000" />
       <workItem from="1561957067159" duration="6543000" />
-      <workItem from="1561977146484" duration="2397000" />
+      <workItem from="1561977146484" duration="2541000" />
+      <workItem from="1562042332597" duration="1057000" />
+      <workItem from="1562044043884" duration="5486000" />
+      <workItem from="1562051410970" duration="224000" />
+      <workItem from="1562052175515" duration="2214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59816000" />
+    <option name="totallyTimeSpent" value="68633000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17121212" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18181819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -581,15 +466,15 @@
       <window_info anchor="bottom" id="Database Console" order="7" sideWeight="0.49932975" weight="0.32931727" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32931727" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49924242" visible="true" weight="0.31942216" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5007576" side_tool="true" weight="0.31942216" />
-      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="10" sideWeight="0.49924242" weight="0.32905295" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49848485" visible="true" weight="0.317817" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50151515" side_tool="true" weight="0.317817" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49924242" weight="0.32744783" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32954547" />
-      <window_info anchor="right" id="Database" order="4" weight="0.30579215" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.13484849" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18900804" />
@@ -620,95 +505,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/website/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/static/website/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="1448" column="18" selection-start-line="1448" selection-start-column="18" selection-end-line="1448" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/news/error.html" />
-    <entry file="file://$PROJECT_DIR$/Gimmick_Website/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding>
-            <element signature="e#639#671#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://2678b93a-d6c6-49f7-9596-aba7d9b99cf7/schema/data_schema/table/answers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="f682e6ba-5b8f-4041-a6c6-7bcb921b7405">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/website/news-space.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-          <folding>
-            <element signature="e#1355#1378#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://57076928-658a-413f-8bf3-a6a1fdfd3380/schema/data_schema/table/news">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="f682e6ba-5b8f-4041-a6c6-7bcb921b7405">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://2678b93a-d6c6-49f7-9596-aba7d9b99cf7/schema/bot_data_schema/table/general_values">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="f682e6ba-5b8f-4041-a6c6-7bcb921b7405">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2678b93a-d6c6-49f7-9596-aba7d9b99cf7/console.sql" />
-    <entry file="das://2678b93a-d6c6-49f7-9596-aba7d9b99cf7/schema/bot_data_schema/table/user_chat_phrases">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="f682e6ba-5b8f-4041-a6c6-7bcb921b7405">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news/urls.py" />
-    <entry file="das://57076928-658a-413f-8bf3-a6a1fdfd3380/schema/data_schema/table/news_images">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="09c6d81f-685d-4f77-abf4-6fb61c0f6f69">
-          <filtering />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/static/auth/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="549" column="1" selection-start-line="549" selection-start-column="1" selection-end-line="549" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://57076928-658a-413f-8bf3-a6a1fdfd3380/schema/chat_schema/table/group_chat_messages">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="9f1ec7f4-46ba-433f-92cd-17b266cdd3ed">
@@ -795,24 +591,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/database_connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/threading.py" />
-    <entry file="file://$PROJECT_DIR$/auth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/handlers/base.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/_sitebuiltins.py" />
     <entry file="file://$PROJECT_DIR$/database/data_schema/news_table.py">
@@ -823,60 +602,44 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/json/encoder.py" />
-    <entry file="das://57076928-658a-413f-8bf3-a6a1fdfd3380/schema/data_schema/table/questions">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="c85227ca-48a3-454b-9c75-b845f8a6204a">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/static/auth/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/123.js" />
     <entry file="file://$PROJECT_DIR$/static/st.css" />
     <entry file="file://$PROJECT_DIR$/Gimmick_Website/static/general/css/bootstrap.css" />
-    <entry file="file://$PROJECT_DIR$/Gimmick_Website/static/website/favicon1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/Gimmick_Website/static/website/favicon1.png" />
+    <entry file="file://$PROJECT_DIR$/Gimmick_Website/static/auth/css/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/news/static/news/css/app.css">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/static/news/css/foundation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53535">
+          <caret line="3569" column="26" selection-start-line="3569" selection-start-column="23" selection-end-line="3569" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/news/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/database_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chat/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="58" selection-start-line="58" selection-end-line="58" selection-end-column="29" />
+        <state relative-caret-position="1065">
+          <caret line="82" column="56" lean-forward="true" selection-start-line="82" selection-start-column="56" selection-end-line="82" selection-end-column="56" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/website/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/website/header.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/chat/chat.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -885,67 +648,187 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gimmick_Website/settings.py">
+    <entry file="das://57076928-658a-413f-8bf3-a6a1fdfd3380/schema/data_schema/table/questions">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="b746c7f1-b6e5-46dc-84bf-c87e811625b6">
+          <filtering />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/static/auth/js/auth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="131" column="9" selection-start-line="131" selection-start-column="9" selection-end-line="131" selection-end-column="9" />
+        <state relative-caret-position="60">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/auth/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="69" column="39" lean-forward="true" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/django/utils/datastructures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/news/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="188">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/auth/login.html">
+    <entry file="file://$PROJECT_DIR$/Gimmick_Website/static/auth/js/signup.js" />
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="77" column="33" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
+        <state relative-caret-position="124">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/auth/signup.html">
+    <entry file="file://$PROJECT_DIR$/Gimmick_Website/static/auth/css/auth.css" />
+    <entry file="file://$PROJECT_DIR$/auth/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="66" column="16" lean-forward="true" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
+        <state relative-caret-position="323">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/static/auth/js/signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/static/auth/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/website/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/static/auth/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="5" column="46155" selection-start-line="5" selection-start-column="46149" selection-end-line="5" selection-end-column="46155" />
+          <folding>
+            <element signature="e#57526#57726#2" expanded="true" />
+            <element signature="e#57934#58083#2" expanded="true" />
+            <element signature="e#58585#58731#2" expanded="true" />
+            <element signature="e#59032#59198#1" expanded="true" />
+            <element signature="e#70814#71057#2" expanded="true" />
+            <element signature="e#71924#72173#2" expanded="true" />
+            <element signature="e#99236#99426#2" expanded="true" />
+            <element signature="e#99472#99662#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/static/auth/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19917">
+          <caret line="6284" column="1" selection-start-line="6284" selection-start-column="1" selection-end-line="6284" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/auth/auth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/static/auth/css/auth.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="557" column="28" lean-forward="true" selection-start-line="557" selection-start-column="28" selection-end-line="557" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/auth/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/website/navigaton.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+        <state relative-caret-position="106">
+          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news/static/news/css/app.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/auth/auth.html">
+    <entry file="file://$PROJECT_DIR$/Gimmick_Website/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news/static/news/css/foundation.css">
+    <entry file="file://$PROJECT_DIR$/templates/website/news-space.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="3569" column="26" selection-start-line="3569" selection-start-column="23" selection-end-line="3569" selection-end-column="26" />
+        <state relative-caret-position="60">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/news/news.html">
+    <entry file="file://$PROJECT_DIR$/templates/website/services-space.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/website/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2861">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

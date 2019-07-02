@@ -16,12 +16,17 @@ def index(request):
     # while not connection.is_connected():
     #     connection = database_connection.connect()
     #     time.sleep(5000)
+
     username = ''
     telegram_id = ''
+    # main_news = []
+    # secondary_news = []
     main_news = news_table.get_last_high_priority_news(database.get_connection())
     secondary_news = news_table.get_three_last_news(database.get_connection(), main_news.news_id)
     if request.session.__contains__('user_id'):
         user_id = request.session['user_id']
+        # username = "Bla bla"
+        # telegram_id = 12
         username = users_table.get_username(database.get_connection(), user_id)
         telegram_id = users_table.get_tg_user_id(database.get_connection(), user_id)
     return render(request, 'website/index.html', {
