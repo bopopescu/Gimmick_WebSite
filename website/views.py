@@ -25,10 +25,10 @@ def index(request):
     secondary_news = news_table.get_three_last_news(database.get_connection(), main_news.news_id)
     if request.session.__contains__('user_id'):
         user_id = request.session['user_id']
-        # username = "Bla bla"
-        # telegram_id = 12
-        username = users_table.get_username(database.get_connection(), user_id)
-        telegram_id = users_table.get_tg_user_id(database.get_connection(), user_id)
+        username = "Username"
+        telegram_id = 12
+        # username = users_table.get_username(database.get_connection(), user_id)
+        # telegram_id = users_table.get_tg_user_id(database.get_connection(), user_id)
     return render(request, 'website/index.html', {
         'username': username,
         'telegram_chat_bot_link': telegram_chat_bot_link,

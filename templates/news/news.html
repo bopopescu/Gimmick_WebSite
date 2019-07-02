@@ -1,40 +1,77 @@
-{% load staticfiles%}
+{% load staticfiles %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>{{ news_full.title }}</title>
-    <style rel="stylesheet" type="text/css" href="{% static 'news/css/foundation.css' %}"></style>
+    {#    <style rel="stylesheet" type="text/css" href="{% static 'news/css/foundation.css' %}"></style>#}
     <style rel="stylesheet" type="text/css" href="{% static 'news/css/app.css' %}"></style>
     <script type="text/javascript" src="{% static 'news/js/app.js' %}"></script>
-    <script type="text/javascript" src="{% static 'news/js/vendor/foundation.js' %}"></script>
+    {#    <script type="text/javascript" src="{% static 'news/js/vendor/foundation.js' %}"></script>#}
     <script type="text/javascript" src="{% static 'news/js/vendor/jquery.js' %}"></script>
 </head>
+<style type="text/css">
+
+    .columns {
+        display: flex;
+    }
+
+    .column {
+        flex: 1;
+    }
+
+    .main-column {
+        flex: 2;
+    }
+
+    .article {
+        display: flex;
+        flex-direction: column;
+        flex-basis: auto; /* Устанавливает начальный размер элемента в зависимости от его содержимого */
+    }
+
+    .article-body {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+    }
+
+    .article-content {
+        flex: 1; /* Содержимое заполняет все оставшееся место, тем самым прижимая информационную панель к нижней части */
+    }
+
+</style>
+
 <body>
-<img src="{{ news_full.main_image_link }}">
-<h1>{{ news_full.title }}</h1>
 
-{% for block in news_full.blocks %}
-    {% if block.text != null %}
-        <h2>{{ block.text }}</h2>
-    {% endif %}
-    {% for image in  block.images %}
-        <div class="card" style="width: 300px;">
-  <div class="card-divider">
-    This is a header
-  </div>
-  <img src="{{ image }}">
-  <div class="card-section">
-    <h4>This is a card.</h4>
-    <p>It has an easy to override visual style, and is appropriately subdued.</p>
-  </div>
-</div>
-{#        <img src="{{ image }}">#}
-    {% endfor %}
+<a class="article">
+    <figure class="article-image">
+        <img src="{{ news_full.main_image_link }}">
+    </figure>
+    <div class="article-body">
+        <h2 class="article-title">
+            {{ news_full.title }}
+        </h2>
+        <p class="article-content">
+            {% for block in news_full.blocks %}
+                {% if block.text != null %}
+                    <h2>{{ block.text }}</h2>
+                {% endif %}
+                {% for image in  block.images %}
 
-{% endfor %}
+                    <img src="{{ image }}">
 
-<h2></h2>
+                    </div>
+                    {#        <img src="{{ image }}">#}
+                {% endfor %}
+
+            {% endfor %}
+    </p>
+    <footer class="article-info">
+        {{ news_full.date }}
+    </footer>
+    </div>
+</a>
 
 
 </body>

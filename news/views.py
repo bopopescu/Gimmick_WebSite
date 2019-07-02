@@ -19,7 +19,7 @@ def news(request):
     if request.method == 'GET':
         news_id = request.GET['news_id']
     news_full = news_table.get_full_news_by_id(database.get_connection(), news_id)
-    return render(request, 'news/news.html', {'news_full': news_full})
+    return render(request, 'news/news_single.html', {'news_full': news_full})
     # while not database.connection.is_connected():
     #     connection = database_connection.connect()
 
