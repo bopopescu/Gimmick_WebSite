@@ -95,4 +95,6 @@ def get_full_news_by_id(connection, news_id):
         news_full.blocks[5].images = get_news_main_images_links(connection, news_id, 6)
         news_full.blocks[6].images = get_news_main_images_links(connection, news_id, 7)
     news_full.main_image_link = get_news_main_images_links(connection, news_id, 0)[0]
+    news_full.favourites = get_news_favourites(connection, news_full.news_id)
     return news_full
+

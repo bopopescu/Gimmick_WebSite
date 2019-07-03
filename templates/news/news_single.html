@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Html шаблон блога</title>
+    <title>{{ news_full.title }}</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="{% static 'news/css/style.css' %}" type="text/css" media="screen"/>
@@ -33,7 +33,7 @@
     <!-- ENDS poshytip -->
 
     <!-- superfish -->
-    <link rel="stylesheet" media="screen" href="css/superfish.css"/>
+    <link rel="stylesheet" media="screen" href="{% static 'news/css/superfish.css'%}"/>
     <script type="text/javascript" src="{% static 'news/js/superfish-1.4.8/js/hoverIntent.js' %}"></script>
     <script type="text/javascript" src="{% static 'news/js/superfish-1.4.8/js/superfish.js' %}"></script>
     <script type="text/javascript" src="{% static 'news/js/superfish-1.4.8/js/supersubs.js' %}"></script>
@@ -61,9 +61,24 @@
     <!-- GOOGLE FONTS
     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700|PT+Sans' rel='stylesheet' type='text/css'>
     -->
-
+    <script type="text/javascript" src="{% static 'auth/js/jquery-3.4.1.js' %}" defer></script>
+    <script type="text/javascript" src="{% static 'news/js/news_single.js' %}"></script>
 </head>
 <body>
+
+<style>
+
+
+.MyTab {text-indent: 2em;}
+
+.favourites{
+    cursor: pointer;
+}
+
+    .favourites:active{
+        background-color: #03A9F4;
+    }
+</style>
 
 
 <!-- WRAPPER -->
@@ -93,14 +108,13 @@
                     <h4 class="entry-title">
 
                         <span class="title">{{ news_full.title }}</span>
-                        <span class="entry-comments"><a href="#comments" title="Go to the comments"
-                                                        class="poshytip">{{ news_full.favourites }}</a></span>
+                        <span class="entry-comments favourites" onmouseup="addToFavourites(event, {{news_full.news_id}})" id="favourites">{{ news_full.favourites }}</span>
                     </h4>
 
 
                     {% for block in news_full.blocks %}
                         {% if block.text != null %}
-                            <p>{{ block.text }}</p>
+                            <p class="MyTab">{{ block.text }}</p>
                         {% endif %}
                         {% for image in  block.images %}
 
@@ -136,6 +150,8 @@
 </div>
 </div>
 <!-- ENDS WRAPPER -->
+
+
 
 </body>
 </html>
