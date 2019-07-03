@@ -31,12 +31,12 @@
                             <div class="c-card__content">
                                 {#                                <div class="c-card__author">Александр Иванов</div>#}
                                 <h3 class="c-card__title">
-                                    <a href="/news/?news_id={{ main_news.news_id }}">{{ main_news.title }}</a>
+                                    <a target="_blank" href="/news/?news_id={{ main_news.news_id }}">{{ main_news.title }}</a>
                                 </h3>
                                 <div class="c-card__desc">
                                     {{ main_news.text }}
                                 </div>
-                                <a href="/news/?news_id={{ main_news.news_id }}" class="c-card__more">Подробнее</a>
+                                <a target="_blank" href="/news/?news_id={{ main_news.news_id }}" class="c-card__more">Подробнее</a>
                             </div>
                         </div>
                     </div>
@@ -76,12 +76,12 @@
                                 <div class="c-card__content">
                                     {#                                <div class="c-card__author">Александр Иванов</div>#}
                                     <h3 class="c-card__title">
-                                        <a href="/news/?news_id={{ n.news_id }}">{{ n.title }}</a>
+                                        <a target="_blank" href="/news/?news_id={{ n.news_id }}">{{ n.title }}</a>
                                     </h3>
                                     <div class="c-card__desc">
                                         {{ n.text }}
                                     </div>
-                                    <a href="/news/?news_id={{ n.news_id }}" class="c-card__more">Подробнее</a>
+                                    <a target="_blank" href="/news/?news_id={{ n.news_id }}" class="c-card__more">Подробнее</a>
                                 </div>
                             </div>
                         </div>

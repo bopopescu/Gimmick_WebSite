@@ -25,10 +25,13 @@ def get_last_high_priority_news(connection):
 
 
 def get_news_favourites(connection, news_id):
-    query = """SELECT news_id FROM data_schema.news_favourites WHERE news_id=%s"""
+    query = """SELECT * FROM data_schema.news_favourites WHERE news_id=%s"""
     cursor = connection.cursor(cursor_class=MySQLCursorPrepared)
     cursor.execute(query, (news_id,))
     data = cursor.fetchall()
+    check_map = {'':''}
+    for row in data:
+        check_map.append
     return len(data)
 
 
