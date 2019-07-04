@@ -93,22 +93,58 @@
 
 <div id="response"></div>
 <script>
-
-    $(document).ready(function(){
     var socket = new WebSocket('ws://localhost:9000/');
 
-    socket.onopen = function(event){
+    {#$(document).ready(function () {#}
+
+
+    socket.onopen = function (event) {
         socket.send('Hi');
     };
 
-    socket.onmessage = function(event){
-        console.log(event.data);
-    };
 
-    $(window).unload(function(event){
-        socket.close();
-    });
-});
+    function sends(){
+        socket.send('Hi1');
+        console.log(123)
+    }
+    socket.onmessage = function (event) {
+        console.log(event.data);
+
+        parsedResult = JSON.parse(event.data);
+        {#alert(result);#}
+
+
+        if (parsedResult.command === 'new-message') {
+
+            if (parsedResult.update_id === (current_id - 1)) {
+                console.log("back");
+                return;
+            }
+            {#if (parsedResult.userId === {{ current_user_id }}) {#}
+            $("#response").html($("#response").html() +
+
+                '<div class="container darker">\n' +
+                '            <img src="' + parsedResult.avatar_link + '" alt="Avatar" class="right" style="width:100%;">\n' +
+                '            <p>' + parsedResult.message_text + '</p>\n' +
+                '            <span class="time-left">' + parsedResult.message_time + '</span>\n' +
+                '        </div>'
+            );
+        } else {
+            $("#response").html($("#response").html() +
+
+
+                '<div class="container">\n' +
+                '            <img src="' + parsedResult.avatar_link + '" alt="Avatar" style="width:100%;">\n' +
+                '            <p>' + parsedResult.message_text + '</p>\n' +
+                '            <span class="time-right">' + parsedResult.message_time + '</span>\n' +
+                '        </div>'
+            );
+        }
+        if (parsedResult.update_id === current_id)
+            current_id++;
+
+    };
+    {#);#}
 
 </script>
 
