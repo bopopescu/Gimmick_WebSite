@@ -24,7 +24,6 @@ def news(request):
         if request.POST['command'] == 'change-favourites':
             user_id = request.session['user_id']
             news_id = request.POST['news_id']
-            print("POST-REQ")
             if not news_favourites_table.is_in_favourites(database.get_connection(), news_id, user_id):
                 if news_favourites_table.add_to_favourites(database.get_connection(), news_id, user_id):
                     return HttpResponse('+' + news_table.get_news_favourites(database.get_connection(), news_id).__str__())
@@ -35,7 +34,7 @@ def news(request):
                     return HttpResponse('-' + news_table.get_news_favourites(database.get_connection(), news_id).__str__())
                 else:
                     return HttpResponse('false')
-    news_full = news_table.get_full_news_by_id(database.get_connection(), news_id)
+    news_full = news_table.get_full_news_by_id(database.get_connection(), news_id, request.session['user_id'])
     return render(request, 'news/news_single.html', {'news_full': news_full})
     # while not database.connection.is_connected():
     #     connection = database_connection.connect()

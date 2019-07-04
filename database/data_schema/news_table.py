@@ -1,5 +1,8 @@
+from collections import defaultdict
+
 from mysql.connector.cursor import MySQLCursorPrepared
 
+from database.data_schema import news_favourites_table
 from database.objects.news import News, NewsFull, Block
 
 
@@ -25,14 +28,16 @@ def get_last_high_priority_news(connection):
 
 
 def get_news_favourites(connection, news_id):
-    query = """SELECT * FROM data_schema.news_favourites WHERE news_id=%s"""
+    query = """SELECT user_id FROM data_schema.news_favourites WHERE news_id=%s"""
     cursor = connection.cursor(cursor_class=MySQLCursorPrepared)
     cursor.execute(query, (news_id,))
     data = cursor.fetchall()
-    check_map = {'':''}
+    check_map = []
     for row in data:
-        check_map.append
-    return len(data)
+        if check_map.__contains__(row[0]):
+            continue
+        check_map.append(row[0])
+    return len(check_map)
 
 
 def get_news_main_images_links(connection, news_id, block):
@@ -66,7 +71,7 @@ def get_three_last_news(connection, high_priority_id):
     return news_list
 
 
-def get_full_news_by_id(connection, news_id):
+def get_full_news_by_id(connection, news_id, user_id=0):
     query = """SELECT id, title, date, block_1, block_2, block_3, block_4, block_5, block_6, block_7 FROM data_schema.news WHERE id=%s"""
     cursor = connection.cursor(cursor_class=MySQLCursorPrepared)
     cursor.execute(query, (news_id,))
@@ -99,5 +104,6 @@ def get_full_news_by_id(connection, news_id):
         news_full.blocks[6].images = get_news_main_images_links(connection, news_id, 7)
     news_full.main_image_link = get_news_main_images_links(connection, news_id, 0)[0]
     news_full.favourites = get_news_favourites(connection, news_full.news_id)
+    news_full.is_in_favourites = news_favourites_table.is_in_favourites(connection, news_id, user_id)
     return news_full
 

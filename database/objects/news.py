@@ -17,6 +17,7 @@ class NewsFull:
     main_image_link = ''
     date = datetime.datetime.now()
     favourites = 0
+    is_in_favourites = False
 
 
 class Block:
