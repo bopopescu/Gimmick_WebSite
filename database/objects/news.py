@@ -8,6 +8,7 @@ class News:
     image_link = ''
     date = datetime.datetime.now()
     favourites = 0
+    is_in_favourites = False
 
 
 class NewsFull:

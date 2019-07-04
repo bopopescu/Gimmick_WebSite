@@ -23,6 +23,8 @@ def news(request):
     if request.method == 'POST':
         if request.POST['command'] == 'change-favourites':
             user_id = request.session['user_id']
+            if user_id == 0:
+                return HttpResponse('false')
             news_id = request.POST['news_id']
             if not news_favourites_table.is_in_favourites(database.get_connection(), news_id, user_id):
                 if news_favourites_table.add_to_favourites(database.get_connection(), news_id, user_id):

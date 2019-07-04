@@ -6,7 +6,7 @@ from database.data_schema import news_favourites_table
 from database.objects.news import News, NewsFull, Block
 
 
-def get_last_high_priority_news(connection):
+def get_last_high_priority_news(connection, user_id=0):
     query = """SELECT id, title, block_1, date FROM data_schema.news WHERE priority=1 ORDER BY id DESC"""
     cursor = connection.cursor()
     cursor.execute(query)
@@ -19,6 +19,7 @@ def get_last_high_priority_news(connection):
         n.text = row[2]
         n.date = row[3]
         n.image_link = get_news_main_images_links(connection, n.news_id, 0)[0]
+        n.is_in_favourites = news_favourites_table.is_in_favourites(connection, n.news_id, user_id)
         break
     n.favourites = get_news_favourites(connection, n.news_id)
     if len(data) > 0:
@@ -51,7 +52,7 @@ def get_news_main_images_links(connection, news_id, block):
     return images
 
 
-def get_three_last_news(connection, high_priority_id):
+def get_three_last_news(connection, high_priority_id, user_id=0):
     query = """SELECT id, title, block_1, date FROM data_schema.news WHERE id!=%s ORDER BY id DESC"""
     cursor = connection.cursor(cursor_class=MySQLCursorPrepared)
     cursor.execute(query, (high_priority_id,))
@@ -67,6 +68,7 @@ def get_three_last_news(connection, high_priority_id):
         news_list[i].date = row[3]
         news_list[i].image_link = get_news_main_images_links(connection, news_list[i].news_id, 0)[0]
         news_list[i].favourites = get_news_favourites(connection, news_list[i].news_id)
+        news_list[i].is_in_favourites = news_favourites_table.is_in_favourites(connection, news_list[i].news_id, user_id)
         i += 1
     return news_list
 

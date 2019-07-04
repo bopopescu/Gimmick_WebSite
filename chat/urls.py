@@ -3,5 +3,5 @@ from chat import views
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
-    url(r'^checkForUpdate/$', views.update, name='update')
+    # url(r'^checkForUpdate/$', views.update, name='update')
 ]

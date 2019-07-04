@@ -1,5 +1,11 @@
 {% block news-space %}
+    <style>
 
+        .favourites {
+            cursor: pointer;
+        }
+
+    </style>
     <section class="main-section paddind" id="Portfolio">
         <div class="container" id="news-space">
             <h2>News</h2>
@@ -21,9 +27,21 @@
                             <!-- end c-date -->
                             <!-- begin c-info -->
                             <ul class="c-info">
-                                {#                                TODO(Add to favourites)#}
-                                {#                                TODO(Remove to favourites)#}
-                                <li><a href="#" class="far fa-bookmark" ><span style="font-size: 23px">{{ main_news.favourites }}</span></a></li>
+
+                                {% if not n.is_in_favourites %}
+                                    <li><a id="bookmark_{{ main_news.news_id }}" class="far fa-bookmark favourites"
+                                       onmouseup="addToFavourites(event, {{ main_news.news_id }})"><span
+                                        style="font-size: 23px"
+                                        id="{{ main_news.news_id }}">{{ main_news.favourites }}</span></a></li>
+                                {% endif %}
+
+                                {% if n.is_in_favourites %}
+
+                                    <li><a id="bookmark_{{ main_news.news_id }}" class="far fa-check-circle favourites"
+                                           onmouseup="addToFavourites(event, {{ main_news.news_id }})"><span
+                                            style="font-size: 23px"
+                                            id="{{ main_news.news_id }}">{{ main_news.favourites }}</span></a></li>
+                                {% endif %}
                             </ul>
                             <!-- end c-info -->
                         </div>
@@ -31,7 +49,8 @@
                             <div class="c-card__content">
                                 {#                                <div class="c-card__author">Александр Иванов</div>#}
                                 <h3 class="c-card__title">
-                                    <a target="_blank" href="/news/?news_id={{ main_news.news_id }}">{{ main_news.title }}</a>
+                                    <a target="_blank"
+                                       href="/news/?news_id={{ main_news.news_id }}">{{ main_news.title }}</a>
                                 </h3>
                                 <div class="c-card__desc">
                                     {{ main_news.text }}
@@ -66,9 +85,20 @@
                                 <!-- end c-date -->
                                 <!-- begin c-info -->
                                 <ul class="c-info">
-                                    <li><a href="#" class="far fa-bookmark"><span style="font-size: 23px">{{ n.favourites }}</span></a></li>
-                                    {#                                <li><a href="#" class="far fa-heart"><span>24</span></a></li>#}
-                                    {#                                <li><a href="#" class="far fa-comment"><span>4</span></a></li>#}
+                                    {% if not n.is_in_favourites %}
+                                        <li><a id="bookmark_{{ n.news_id }}" class="far fa-bookmark favourites"
+                                           onmouseup="addToFavourites(event, {{ n.news_id }})"><span
+                                            style="font-size: 23px" id="{{ n.news_id }}">{{ n.favourites }}</span></a>
+                                    </li>
+                                    {% endif %}
+
+                                    {% if n.is_in_favourites %}
+                                        <li><a id="bookmark_{{ n.news_id }}" class="far fa-check-circle favourites"
+                                               onmouseup="addToFavourites(event, {{ n.news_id }})"><span
+                                                style="font-size: 23px"
+                                                id="{{ n.news_id }}">{{ n.favourites }}</span></a></li>
+
+                                    {% endif %}
                                 </ul>
                                 <!-- end c-info -->
                             </div>

@@ -1131,7 +1131,7 @@ Light-Outline-Btn*/
 .input-btn {
     width: 175px;
     height: 50px;
-    background: #7cc576;
+    background: #000000;
     border-radius: 4px;
     color: #ffffff;
     font-size: 14px;
@@ -1145,8 +1145,8 @@ Light-Outline-Btn*/
 }
 
 .input-btn:hover {
-    background: #111;
-    color: #fff;
+    background: #ffffff;
+    color: #000000;
 }
 
 .validation {

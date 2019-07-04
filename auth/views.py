@@ -13,6 +13,8 @@ database = Database()
 def login(request):
     if request.session.__contains__('user_id'):
         del request.session['user_id']
+        if request.session.__contains__('username'):
+            del request.session['username']
     # while not database.connection.is_connected():
     #     database.connection = database_connection.connect()
     if request.method == 'POST':
@@ -28,6 +30,7 @@ def login(request):
             if result:
                 user_id = users_table.get_user_id(database.get_connection(), username)
                 request.session['user_id'] = user_id
+                request.session['username'] = users_table.get_username(database.get_connection(), user_id)
                 return HttpResponse(result)
             elif not result:
                 return HttpResponse(result)
@@ -38,6 +41,8 @@ def login(request):
 def sign_up(request):
     if request.session.__contains__('user_id'):
         del request.session['user_id']
+        if request.session.__contains__('username'):
+            del request.session['username']
     if request.method == 'POST':
         command = request.POST['command']
         if command == 'is_user_exists':
@@ -48,5 +53,6 @@ def sign_up(request):
             username = request.POST['username']
             password = request.POST['password']
             request.session['user_id'] = users_table.register_user(database.get_connection(), username, password)
+            request.session['username'] = users_table.get_username(database.get_connection(), request.session['user_id'])
             return HttpResponse('True')
     return render(request, 'auth/auth.html', {'page': 'signup', 'message': ''})
