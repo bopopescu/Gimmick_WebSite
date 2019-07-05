@@ -109,22 +109,23 @@
 
                     <h4 class="entry-title">
 
-                        <span class="title" {{ news_full.title }}></span>
-                    <span class="entry-comments favourites"
-                                  onmouseup="addToFavourites(event, {{ news_full.news_id }})"
-                                  id="favourites">{{ news_full.favourites }}</span>
+
+                        <span class="entry-comments favourites"
+                              onmouseup="addToFavourites(event, {{ news_full.news_id }})"
+                              id="favourites">{{ news_full.favourites }}</span>
+
                         {% if not news_full.is_in_favourites %}
                             <img
-                                style="max-height: 20px; visibility: hidden;" id="favourites_img"
-                                src="{% static 'news/img/added.png' %}">
+                                    style="max-height: 20px; visibility: hidden;" id="favourites_img"
+                                    src="{% static 'news/img/added.png' %}">
                         {% endif %}
                         {% if news_full.is_in_favourites %}
                             <img
-                                style="max-height: 20px; visibility: visible;" id="favourites_img"
-                                src="{% static 'news/img/added.png' %}">
+                                    style="max-height: 20px; visibility: visible;" id="favourites_img"
+                                    src="{% static 'news/img/added.png' %}">
                         {% endif %}
 
-
+                        <span class="title"> {{ news_full.title }} </span>
                     </h4>
 
                     {% for block in news_full.blocks %}

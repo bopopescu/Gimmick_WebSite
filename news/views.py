@@ -1,5 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render
+from django.views.decorators.cache import cache_control
 from django.views.decorators.csrf import csrf_exempt
 
 from database import database_connection
@@ -10,6 +11,7 @@ database = Database()
 
 
 @csrf_exempt
+@cache_control(no_cache=True)
 def news(request):
     if not request.session.__contains__('user_id'):
         return render(request, 'auth/auth.html', {

@@ -13,8 +13,7 @@ database = Database()
 def login(request):
     if request.session.__contains__('user_id'):
         del request.session['user_id']
-        if request.session.__contains__('username'):
-            del request.session['username']
+        del request.session['username']
     # while not database.connection.is_connected():
     #     database.connection = database_connection.connect()
     if request.method == 'POST':
@@ -41,8 +40,7 @@ def login(request):
 def sign_up(request):
     if request.session.__contains__('user_id'):
         del request.session['user_id']
-        if request.session.__contains__('username'):
-            del request.session['username']
+        del request.session['username']
     if request.method == 'POST':
         command = request.POST['command']
         if command == 'is_user_exists':
